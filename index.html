@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Car Insurance USA</title>
+		<link rel="icon" href="./images/page.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="./styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container container">
+				<nav class="nav">
+					<a href="#" class="logo"
+						>Car<span class="logo__dark">Insurance</span></a
+					>
+					<ul class="nav__list">
+						<li>
+							<a class="nav__link nav__link--current" href="./index.html"
+								>Home</a
+							>
+						</li>
+						<li><a class="nav__link" href="#">Services</a></li>
+						<li><a class="nav__link" href="#contacts">Contacts</a></li>
+					</ul>
+				</nav>
+				<ul class="contacts">
+					<li>
+						<a class="contacts__link" href="mailto:info@carinsurance.com"
+							><svg width="16px" height="12px">
+								<use href="./images/icons.svg#mail"></use></svg
+							>info@carinsurance.com</a
+						>
+					</li>
+					<li>
+						<a class="contacts__link" href="tel:+017372341209"
+							><svg width="10px" height="16px">
+								<use href="./images/icons.svg#phone"></use></svg
+							>+01 737 234 12 09</a
+						>
+					</li>
+				</ul>
+				<button
+					type="button"
+					class="menu-button"
+					aria-expanded="false"
+					data-menu-button
+				>
+					<svg width="40" height="40" aria-label="mobile-menu-switch">
+						<use class="icon__close" href="./images/icons.svg#close-menu"></use>
+						<use class="icon__menu" href="./images/icons.svg#menu"></use>
+					</svg>
+				</button>
+				<div class="mobile__menu">
+					<button
+						type="button"
+						class="list-button"
+						aria-expanded="false"
+						data-close-button
+					>
+						<svg
+							class="list__button-icon"
+							width="40"
+							height="40"
+							aria-label="mobile-menu-switch"
+						>
+							<use
+								class="icon__crose"
+								href="./images/icons.svg#close-menu"
+							></use>
+						</svg>
+					</button>
+					<ul class="mobile__list">
+						<li class="mobile__item">
+							<a class="mobile__link mobile__link--current" href="index.html "
+								>Home</a
+							>
+						</li>
+						<li class="mobile__item">
+							<a class="mobile__link" href="#">Services</a>
+						</li>
+						<li class="mobile__item">
+							<a class="mobile__link" href="#contacts">Contacts</a>
+						</li>
+					</ul>
+					<div class="mobile__contacts">
+						<ul class="mobile__phone-email">
+							<li class="mobile__phone">
+								<a class="mobile__phone-link" href="tel:+017372341209"
+									>+01 737 234 12 09</a
+								>
+							</li>
+							<li class="mobile__email">
+								<a
+									class="mobile__email-link"
+									href="mailto:info@carinsurance.com"
+									>info@carinsurance.com</a
+								>
+							</li>
+						</ul>
+						<ul class="mobile__social">
+							<li class="mobile__social-item">
+								<a
+									class="mobile__social-link"
+									href="https://www.instagram.com/"
+									target="_blank"
+									>Instagram</a
+								>
+							</li>
+							<li class="mobile__social-item">
+								<a
+									class="mobile__social-link"
+									href="https://twitter.com/"
+									target="_blank"
+									>Twitter</a
+								>
+							</li>
+							<li class="mobile__social-item">
+								<a
+									class="mobile__social-link"
+									href="https://www.facebook.com/"
+									target="_blank"
+									>Facebook</a
+								>
+							</li>
+							<li class="mobile__social-item">
+								<a
+									class="mobile__social-link"
+									href="https://www.linkedin.com/"
+									target="_blank"
+									>LinkedIn</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="hero">
+				<h1 class="hero__title">Reliable Car Insurance Plans</h1>
+				<button type="button" class="hero__button" data-modal-open>
+					Get a Free Quote
+				</button>
+			</section>
+
+			<section class="advantages section">
+				<div class="container">
+					<h2 class="advantages__title">Our advantages</h2>
+					<ul class="advantages__list">
+						<li class="advantages__item">
+							<div class="thumb-container">
+								<svg width="70px" height="70px">
+									<use href="./images/icons.svg#antenna"></use>
+								</svg>
+							</div>
+							<h3 class="advantages__subtitle">ATTENTION TO DETAIL</h3>
+							<p class="advantages__desc">
+								An individual approach to every client, thorough analysis of
+								needs, and insurance conditions are the foundation of our work.
+							</p>
+						</li>
+						<li class="advantages__item">
+							<div class="thumb-container">
+								<svg width="70px" height="70px">
+									<use href="./images/icons.svg#clock"></use>
+								</svg>
+							</div>
+							<h3 class="advantages__subtitle">PUNCTUALITY</h3>
+							<p class="advantages__desc">
+								Strict adherence to deadlines, quick policy issuance, and timely
+								assistance are our top priorities.
+							</p>
+						</li>
+						<li class="advantages__item">
+							<div class="thumb-container">
+								<svg width="70px" height="70px">
+									<use href="./images/icons.svg#diagram"></use>
+								</svg>
+							</div>
+							<h3 class="advantages__subtitle">PLANNING</h3>
+							<p class="advantages__desc">
+								A comprehensive approach to auto insurance allows us to develop
+								optimal solutions for each client.
+							</p>
+						</li>
+						<li class="advantages__item">
+							<div class="thumb-container">
+								<svg width="70px" height="70px">
+									<use href="./images/icons.svg#astronaut"></use>
+								</svg>
+							</div>
+							<h3 class="advantages__subtitle">MODERN TECHNOLOGIES</h3>
+							<p class="advantages__desc">
+								The use of innovative online platforms ensures convenience,
+								speed, and transparency in insurance processes.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="activity section">
+				<div class="container">
+					<h2 class="sec-title">What we do</h2>
+					<ul class="activity__list">
+						<li class="activity__item">
+							<img
+								loading="lazy"
+								alt="What we do"
+								src="./images/do-img1.webp"
+								class="activity__img"
+							/>
+							<p class="activity__desc">AUTO INSURANCE</p>
+						</li>
+						<li class="activity__item">
+							<img
+								loading="lazy"
+								alt="What we do"
+								src="./images/do-img2.webp"
+								class="activity__img"
+							/>
+							<p class="activity__desc">MOBILE INSURANCE SERVICES</p>
+						</li>
+						<li class="activity__item">
+							<img
+								loading="lazy"
+								alt="What we do"
+								src="./images/do-img3.webp"
+								class="activity__img"
+							/>
+							<p class="activity__desc">DESIGNING INSURANCE PLANS</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="team section">
+				<div class="container">
+					<h2 class="sec-title">Our Specialists</h2>
+					<ul class="team__list">
+						<li class="team__item">
+							<img
+								loading="lazy"
+								class="team__img"
+								src="./images/team/img_tablet-@1x.webp"
+								alt="John Smith"
+							/>
+							<div class="team__card">
+								<h3 class="team__subtitle">John Smith</h3>
+								<p class="team__desc">Senior Insurance Advisor</p>
+								<ul class="team__social-list">
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.instagram.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#instagram"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://twitter.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#twitter"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.facebook.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#facebook"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.linkedin.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#linkedin"></use></svg
+										></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="team__item">
+							<img
+								loading="lazy"
+								class="team__img"
+								src="./images/team/img_tablet-@1x-1.webp"
+								alt="Emily Johnson"
+							/>
+							<div class="team__card">
+								<h3 class="team__subtitle">Emily Johnson</h3>
+								<p class="team__desc">Claims Manager</p>
+								<ul class="team__social-list">
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.instagram.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#instagram"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://twitter.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#twitter"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.facebook.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#facebook"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.linkedin.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#linkedin"></use></svg
+										></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="team__item">
+							<img
+								loading="lazy"
+								class="team__img"
+								src="./images/team/img_tablet-@1x-2.webp"
+								alt="Michael Brown"
+							/>
+							<div class="team__card">
+								<h3 class="team__subtitle">Michael Brown</h3>
+								<p class="team__desc">Customer Service Representative</p>
+								<ul class="team__social-list">
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.instagram.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#instagram"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://twitter.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#twitter"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.facebook.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#facebook"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.linkedin.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#linkedin"></use></svg
+										></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="team__item">
+							<img
+								loading="lazy"
+								class="team__img"
+								src="./images/team/img_tablet-@1x-3.webp"
+								alt="David Wilson"
+							/>
+							<div class="team__card">
+								<h3 class="team__subtitle">David Wilson</h3>
+								<p class="team__desc">Insurance Analyst</p>
+								<ul class="team__social-list">
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.instagram.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#instagram"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://twitter.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#twitter"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.facebook.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#facebook"></use></svg
+										></a>
+									</li>
+									<li class="team__social-item">
+										<a
+											class="team__social-link"
+											href="https://www.linkedin.com/"
+											target="_blank"
+											><svg width="20px" height="20px">
+												<use href="./images/icons.svg#linkedin"></use></svg
+										></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="regulars section">
+				<div class="container">
+					<h2 class="sec-title">Regular clients</h2>
+					<ul class="regulars__list">
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="https://yayaco.ca/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client1"></use></svg
+							></a>
+						</li>
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="https://www.shopify.com/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client2"></use></svg
+							></a>
+						</li>
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="https://www.activecampaign.com/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client3"></use></svg
+							></a>
+						</li>
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="https://www.petersandfoster.com/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client4"></use></svg
+							></a>
+						</li>
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="http://www.thebrandcompany.co/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client5"></use></svg
+							></a>
+						</li>
+						<li class="regulars__item">
+							<a
+								class="regulars__link"
+								href="https://blog.hubspot.com/"
+								target="_blank"
+								><svg width="106px" height="60px">
+									<use href="./images/icons.svg#client6"></use></svg
+							></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__wrapper">
+					<div class="footer__address-container">
+						<a href="#" class="footer__logo logo"
+							>Car<span class="logo__white">Insurance</span></a
+						>
+						<address class="address" id="contacts">
+							<ul class="address__list">
+								<li class="address__item">
+									<a
+										class="address__link address__link--location"
+										href="https://maps.app.goo.gl/o9PJ24K8sNvWoQ5N7"
+										target="_blank"
+										>1234 Insurance Blvd, Suite 567 Los Angeles, CA 90001 USA</a
+									>
+								</li>
+								<li class="address__item">
+									<a class="address__link" href="mailto:info@carinsurance.com"
+										>info@carinsurance.com</a
+									>
+								</li>
+								<li class="address__item address__item--marg">
+									<a class="address__link" href="tel:+017372341209"
+										>+01 737 234 12 09</a
+									>
+								</li>
+							</ul>
+						</address>
+					</div>
+					<div class="social">
+						<p class="social__title">OUR SOCIAL NETWORKS</p>
+						<ul class="social__list">
+							<li class="social__item">
+								<a
+									class="social__link"
+									href="https://www.instagram.com/"
+									target="_blank"
+									><svg width="20px" height="20px">
+										<use href="./images/icons.svg#instagram"></use></svg
+								></a>
+							</li>
+							<li class="social__item">
+								<a
+									class="social__link"
+									href="https://twitter.com/"
+									target="_blank"
+									><svg width="20px" height="20px">
+										<use href="./images/icons.svg#twitter"></use></svg
+								></a>
+							</li>
+							<li class="social__item">
+								<a
+									class="social__link"
+									href="https://www.facebook.com/"
+									target="_blank"
+									><svg width="20px" height="20px">
+										<use href="./images/icons.svg#facebook"></use></svg
+								></a>
+							</li>
+							<li class="social__item">
+								<a
+									class="social__link"
+									href="https://www.linkedin.com/"
+									target="_blank"
+									><svg width="20px" height="20px">
+										<use href="./images/icons.svg#linkedin"></use></svg
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<label class="newsletter">
+					<span class="newsletter__title">SUBSCRIBE TO NEWS</span>
+					<div class="newsletter__container">
+						<input
+							class="newsletter__input"
+							id="user-email"
+							type="email"
+							name="user-email"
+							placeholder="E-mail"
+						/>
+						<button class="newsletter__btn" type="submit">
+							Submit<svg width="24" height="24">
+								<use href="./images/icons.svg#send"></use>
+							</svg>
+						</button>
+					</div>
+				</label>
+			</div>
+		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button class="modal__close" data-modal-close>
+					<svg width="18px" height="18px">
+						<use href="./images/icons.svg#close-btn"></use>
+					</svg>
+				</button>
+				<form
+					class="booking-form"
+					name="booking-form"
+					autocomplete="on"
+					action="#"
+				>
+					<h2 class="booking-form__title">
+						Fill out your details, we will call you back
+					</h2>
+
+					<label for="user-name" class="booking-form__label">
+						<span class="booking-form__name">Name and Surname</span>
+						<input
+							class="booking-form__input"
+							id="user-name"
+							type="text"
+							name="user-name"
+							placeholder=" "
+							required
+						/>
+						<svg class="booking-form__icon" width="18px" height="18px">
+							<use href="./images/icons.svg#person"></use>
+						</svg>
+					</label>
+
+					<label for="user-tel" class="booking-form__label">
+						<span class="booking-form__name">Phone</span>
+						<input
+							class="booking-form__input"
+							id="user-tel"
+							type="tel"
+							name="user-tel"
+							placeholder=" "
+							required
+						/>
+						<svg class="booking-form__icon" width="18px" height="18px">
+							<use href="./images/icons.svg#tel"></use>
+						</svg>
+					</label>
+
+					<label for="user-zip" class="booking-form__label">
+						<span class="booking-form__name">ZIP Code</span>
+						<input
+							class="booking-form__input"
+							id="user-zip"
+							type="number"
+							name="user-zip"
+							placeholder=" "
+							required
+						/>
+						<svg class="booking-form__icon" width="18px" height="18px">
+							<use href="./images/icons.svg#email"></use>
+						</svg>
+					</label>
+
+					<label
+						for="user-comment"
+						class="booking-form__label booking-form__label--comment"
+					>
+						<span class="booking-form__name"
+							>Additional Information (optional)</span
+						>
+						<textarea
+							class="booking-form__text-area"
+							placeholder="Type here"
+							id="user-additional"
+							name="user-additional"
+						></textarea>
+					</label>
+
+					<div class="booking-form__agreement">
+						<label class="booking-form__agreement-label">
+							<input
+								type="checkbox"
+								class="checkbox visually-hidden"
+								required
+							/>
+							<svg class="checkbox__icon" width="16" height="15">
+								<use
+									class="checkbox__uncheck"
+									href="./images/icons.svg#uncheck"
+								></use>
+								<use
+									class="checkbox__check"
+									href="./images/icons.svg#check"
+								></use>
+							</svg>
+							<span class="booking-form__agreement-text"
+								>I agree with the mailing list and accept
+								<a
+									class="booking-form__agreement-link"
+									href="https://www.iubenda.com/en/terms-and-conditions-generator"
+									target="_blank"
+									>the agreement terms</a
+								>
+							</span>
+						</label>
+						<button class="booking-form__btn" type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
